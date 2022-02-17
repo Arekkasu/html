@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tablita</title>
+  <link rel="icon" type="image/x-icon" href="imagen/logo/favicon.ico">
+</head>
+<body>
+    <h1>Javascript un poquito, revisa el codigo para saber algo mas</h1>
+    <p> Pero esto es solo un ejemplo ahora se viene explicacion</p>
+    <h2> Ejemplo</h2>
+    <script>
+        //Agregar una funcion con "Function" y le pondré "ejemplo"//
+        function ejemplo() {
+            document.getElementById("ejem").innerHTML = "Hola a todos este es mi primer script";
+            //Se pueden agregar estilos//
+            document.getElementById("ejem").style.color = "red";
+            document.getElementById("ejem").style.backgroundColor = "black";
+            document.getElementById("ejem").style.fontSize = "20px";
+        } 
+        function tim() {
+            document.getElementById("tiempo").innerHTML = Date();
+            document.getElementById("tiempo").style.backgroundColor = "Aqua";
+        }
+    </script>
+<button type="button" onclick="ejemplo()">Click aqui</button>
+<p id="ejem"></p>
+<br>
+<button type="button" onclick="tim()">Hora exacta</button>
+<p id="tiempo"></p>
+    </body>
+    </html>
+</body>
